@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #552828;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #7a1919;
+    justify-content: left;
+    text-transform: uppercase;
+    font-style: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+header img {
+    height: 55px;
+    margin-right: 12px;
+    margin-left: 10px;
+}
+
+form {
+    background-color: #C3C3C3;
+    padding: 24px 0;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 16px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+
+input,
+button {
+    padding: 12px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #009432;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+#limpar-lista {
+    background-color: red;
+    color: #fff;
+}
+
+.lista-box {
+    background-color: #C3C3C3;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+ul li {
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.riscado {
+    text-decoration: line-through;
+}
